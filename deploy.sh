@@ -104,3 +104,6 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd - > /dev/null
 fi
 
+# Start the SSH service
+# echo "Starting SSH ..."
+#service ssh start
